@@ -1,2 +1,8 @@
 # test_opencl_image_object
-use opencl image object for NHWC tensor
+This toy code use opencl image object for a NHWC input tensor, add 1.f to every element and save it as an output tensor.
+
+## build it
+sh ./buil.sh
+
+## run it
+./a.out
